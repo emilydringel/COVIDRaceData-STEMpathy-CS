@@ -4,7 +4,7 @@ Note: The data is this set is only based on people with access to tests, therefo
 
 
 Data from:  https://covidtracking.com/race.
-To use updated data, go to the above site, and make sure to delete the top 3 rows and the last column (with notes in it) before parsing, as the information in these rows will throw an error. 
+To use updated data, go to the above site, and make sure to delete the top 3 rows and the last column (with notes in it) before parsing, as the information in these sections will throw an error.
 
 Questions:
 1. What percentage of Black Americans tested positive for COVID? What percentage of White Americans tested positive for COVID? What is the ratio between these percentages?

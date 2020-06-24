@@ -64,6 +64,10 @@ public class ProjectTester{
   public static void questionThree(String date){
     //% with covid by race and date
     double[] posPcnts = cntr.findTotals(covidData, null, date,0);
+    if(posPcnts[0]==0||posPcnts[1]==0){
+      System.out.println("Insufficient Data for this date.");
+      return;
+    }
     posPcnts[1]=posPcnts[1]/(usPopulation*blackPcnt);
     posPcnts[0]=posPcnts[0]/(usPopulation*whitePcnt);
     System.out.println(posPcnts[1]+"% of Black Americans tested positive for COVID-19 on " + date + ".");
@@ -91,7 +95,7 @@ public class ProjectTester{
       fillArrayList(setUpReader());
       questionOne();
       questionTwo();
-      questionThree("20200503");
+      questionThree("20200501");
       questionFour();
     } catch (FileNotFoundException e) {
             System.out.println(".csv File not found.");
