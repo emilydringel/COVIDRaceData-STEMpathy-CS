@@ -1,9 +1,10 @@
 This project is meant to teach high school computer science students introductory CS concepts, while exploring how the 2020 Coronavirus Pandemic impacted Black Americans. Teachers may choose to use some of the code provided here to target subjects being taught in class or have students build a similar program from scratch.
 
-Note: the data is this set is only based on people with access to tests, therefore it may not be entirely accurate, likely the difference is even more when you consider who could get tests.
+Note: The data is this set is only based on people with access to tests, therefore it may not be entirely accurate, likely the difference is even more when you consider who could get tests.
 
 
-Data from:  https://covidtracking.com/race
+Data from:  https://covidtracking.com/race.
+To use updated data, go to the above site, and make sure to delete the top 3 rows and the last column (with notes in it) before parsing, as the information in these rows will throw an error. 
 
 Questions:
 1. What percentage of Black Americans tested positive for COVID? What percentage of White Americans tested positive for COVID? What is the ratio between these percentages?
